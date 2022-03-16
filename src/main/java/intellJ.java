@@ -92,7 +92,7 @@ public class intellJ {
 
         if (beerNum > 0) {
             System.out.println(beerNum + " " + word + " of beer on the wall");
-            System.out.println("***************************");
+
         } else {
             System.out.println("No more bottles of beer on the wall");
         }
