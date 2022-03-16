@@ -76,10 +76,11 @@ public class intellJ {
 
         String phrase = wordListOne[rand1] + " " + wordListTwo[ran2] + " " + wordListThree[ran3];
         System.out.println("What we need is" + phrase);
-    }
+
+
     int beerNum = 99;
     String word = "bottles";
-    while(beerNum > 0) {
+    while (beerNum > 0) {
         if (beerNum == 1) {
             word = "bottle";
         }
@@ -96,9 +97,10 @@ public class intellJ {
             System.out.println("No more bottles of beer on the wall");
         }
     }
-
-
+    }
 }
+
+
 
 class Main {
 
@@ -112,5 +114,5 @@ class Main {
 
     }
 
-
+}
 
